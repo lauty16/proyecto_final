@@ -189,6 +189,20 @@ table {
   background-color: gray;
 
 }
+/* concepto */
+.concepto {
+  margin: 100px auto;
+  text-align: center;
+  margin-left: 100px;
+  height: 40px;
+}
+.concepto-titulo{
+  font-size: 60px;
+}
+.concepto-texto {
+  margin: 20px;
+  font-size: 30px;
+}
 
 
 
@@ -255,8 +269,25 @@ table {
     img {
       border-radius: 10px;
     }
-  
-  }
+    /* concepto */
+    .concepto-cont{
+      margin-bottom: 25px;
+    }
+    .concepto{
+      margin: 30px auto;
+      text-align: center;
+     margin-left: 30px;
+      height: 20px;
+
+    }
+    .concepto-titulo{
+      font-size: 30px;
+    }
+    .concepto-texto {
+      margin: 10px;
+      font-size: 15px;
+    }    
+}
 
 
 
@@ -276,6 +307,24 @@ table {
       .row.card{
         margin: 0;
       }
+      /* concepto */
+    .concepto-cont{
+      margin-bottom: 25px;
+    }
+    .concepto{
+      margin: 30px auto;
+      text-align: center;
+     margin-left: 30px;
+      height: 20px;
+
+    }
+    .concepto-titulo{
+      font-size: 35px;
+    }
+    .concepto-texto {
+      margin: 10px;
+      font-size: 25px;
+    }    
     }
     
       
