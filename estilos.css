@@ -209,15 +209,19 @@ table {
   text-align: center;
   padding-top: 90px;
 }
-iframe {
+/* iframe {
   padding: 40px;
   margin-left: 35%;
   margin-right: 35%;
+} */
+.mapa{
+  display: flex;
+  justify-content: center;
 }
 .ubi-text {
   text-align: center;
   font-size: 30px;
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 
@@ -305,7 +309,7 @@ iframe {
     }    
     /*ubicacion*/
     .ubicacion{
-      margin: 30px auto;
+      margin: 25px auto;
       text-align: center;
       margin-left: 30px;
       height: 20px;
@@ -314,12 +318,7 @@ iframe {
      font-size: 30px;
     
     }
-  .ubi-cont .iframe {
-   padding: 10px;
-   margin-left: 0px;
-   width: 100%;
-   
-}
+
   .ubi-text {
     text-align: center;
     font-size: 15px;
