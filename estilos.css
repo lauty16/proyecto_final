@@ -42,7 +42,9 @@
     overflow-x: hidden;
     position: relative;
     padding-bottom: 1em;
-    min-height: 200vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 .portada img {
     width: 100%;
@@ -116,6 +118,7 @@ section{
     bottom: 0;
     text-align: center;
     width: 100%;
+    margin-top: auto;
     
     
     
@@ -162,6 +165,31 @@ section{
   flex-direction: row;
 
 }
+/* talles */
+.titulo-talles {
+  margin-top: 100px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.talles-texto {
+  font-size: 30px;
+  margin: 20px auto;
+  text-align: center;
+  margin-left: 20px;
+}
+table {
+  width: 100%;
+  margin: 150px auto;
+  text-align: center;
+  border: solid black 2px;
+  font-size: 30px;
+}
+.encabezado{
+  background-color: gray;
+
+}
+
 
 
 
@@ -252,10 +280,12 @@ section{
     
       
     
-
-
-
-
+/* VISTA DESKTOP */
+@media screen and (min-width: 1025px) {
+  .cardIndex{
+    margin-left: 40%;
+  }
+}
 
 
 
