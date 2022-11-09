@@ -171,13 +171,9 @@ table {
 .ubicacion {
   font-size: 40px;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 20px;
 }
-/* iframe {
-  padding: 40px;
-  margin-left: 35%;
-  margin-right: 35%;
-} */
+
 .mapa {
   display: flex;
   justify-content: center;
@@ -185,7 +181,7 @@ table {
 .ubi-text {
   text-align: center;
   font-size: 30px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 /*vista mobile*/
@@ -254,21 +250,22 @@ table {
   }
   /*ubicacion*/
   .ubicacion {
-    padding-top: 20px;
+    padding-top: 10px;
     margin: 15px auto;
-    text-align: center;
+    
     margin-left: 30px;
     
   }
   .ubi-titulo {
     font-size: 30px;
-    padding-top: 20px;
+    padding-top: 15px;
+    text-align: center;
   }
 
   .ubi-text {
     text-align: center;
     font-size: 15px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .mapa {
     display: flex;
